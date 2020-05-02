@@ -1,0 +1,13 @@
+edu\usm\cos420\dao\RegisterCloudSqlDao.class
+edu\usm\cos420\servlet\ListRegisterServlet.class
+edu\usm\cos420\servlet\DeletePatientServlet.class
+edu\usm\cos420\servlet\DeleteRegisterServlet.class
+edu\usm\cos420\dao\PatientCloudSqlDao.class
+edu\usm\cos420\domain\Register.class
+edu\usm\cos420\domain\Result.class
+edu\usm\cos420\domain\Patient.class
+edu\usm\cos420\servlet\CreateRegisterServlet.class
+edu\usm\cos420\dao\PatientDao.class
+edu\usm\cos420\servlet\UpdateRegisterServlet.class
+edu\usm\cos420\dao\RegisterDao.class
+edu\usm\cos420\servlet\ReadRegisterServlet.class
