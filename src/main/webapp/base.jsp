@@ -16,11 +16,13 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li><a href="/">Registers</a></li>
+				<li><a href="/">Register Rows</a></li>
 			</ul>
 		</div>
 	</div>
 
 	<c:import url="/${page}.jsp" />
+	<c:import url="/${pageRow}.jsp" />
 
 </body>
 </html>

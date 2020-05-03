@@ -33,7 +33,7 @@ public class UpdateRegisterRowServlet extends HttpServlet{
 			req.setAttribute("registerRow", registerRow);
 			req.setAttribute("action", "Edit");
 			req.setAttribute("destination", "update");
-			req.setAttribute("page", "formRow");
+			req.setAttribute("pageRow", "formRow");
 			req.getRequestDispatcher("/base.jsp").forward(req, resp);
 		} catch (Exception e) {
 			throw new ServletException("Error loading registerRow for editing", e);

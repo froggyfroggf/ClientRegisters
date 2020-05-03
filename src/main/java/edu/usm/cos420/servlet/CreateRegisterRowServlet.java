@@ -21,8 +21,8 @@ public class CreateRegisterRowServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException,
 	IOException {
 		req.setAttribute("action", "Add");          // Part of the Header in form.jsp
-		req.setAttribute("destination", "create");  // The urlPattern to invoke (this Servlet)
-		req.setAttribute("page", "formRow");           // Tells base.jsp to include form.jsp
+		req.setAttribute("destination", "createRow");  // The urlPattern to invoke (this Servlet)
+		req.setAttribute("pageRow", "formRow");           // Tells base.jsp to include form.jsp
 		req.getRequestDispatcher("/base.jsp").forward(req, resp);
 	}
 

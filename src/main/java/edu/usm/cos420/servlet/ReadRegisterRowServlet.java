@@ -31,7 +31,7 @@ public class ReadRegisterRowServlet extends HttpServlet{
 		try {
 			RegisterRow registerRow = dao.readRegisterRow(id);
 			req.setAttribute("registerRow", registerRow);
-			req.setAttribute("page", "viewRow");
+			req.setAttribute("pageRow", "viewRow");
 			req.getRequestDispatcher("/base.jsp").forward(req, resp);
 		} catch (Exception e) {
 			throw new ServletException("Error reading registerRow", e);
