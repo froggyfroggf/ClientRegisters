@@ -124,11 +124,11 @@ public class RegisterCloudSqlDao implements RegisterDao  {
 			try (ResultSet rs = listRegisterStmt.executeQuery()) {
 				while (rs.next()) {
 					Register register = new Register();
-//					Register.setId(rs.getInt(1));
-//					Register.setYear(rs.getString(2));
-//					Register.setFacility(rs.getString(3));
-//					Register.setSubdistrict(rs.getString(4));
-//					Register.setDistrict(rs.getString(5));
+					register.setId(rs.getInt(1));
+					register.setYear(rs.getString(2));
+					register.setFacility(rs.getString(3));
+					register.setSubdistrict(rs.getString(4));
+					register.setDistrict(rs.getString(5));
 					
 
 					resultRegisters.add(register);
